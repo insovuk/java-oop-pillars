@@ -38,7 +38,7 @@ class SmartPhone extends Phone {
         this.os = os;
     }
 
-    @Override // 왜 Override를 통해서 이미 상의 클래스에 있는 것을 하위 클래스에서 다시 재정의를 해야하는지 개념이 이해가 안 됩니다.
+    @Override // 왜 Override를 통해서 이미 상위 클래스에 있는 것을 하위 클래스에서 다시 재정의를 해야하는지 개념이 이해가 안 됩니다.
     public String toString() {
         return "모델: " + model + ", 배터리: " + battery.capacity + "mAh,os:" + os;
     }
